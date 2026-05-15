@@ -1,6 +1,6 @@
 import { TokenResponse } from "./types";
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5015/api";
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || "";
 
 class ApiClient {
   private getAccessToken(): string | null {
